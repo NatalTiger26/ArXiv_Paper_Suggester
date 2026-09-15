@@ -1,0 +1,49 @@
+paper_id,arxiv_id,title,score_1_to_5,high_importance
+1806.07572,1806.07572,Neural Tangent Kernel: Convergence and Generalization in Neural Networks,5,1
+2501.16496,2501.16496,Open Problems in Mechanistic Interpretability,5,1
+doi:10.1146/annurev-conmatphys-031119-050745,,Statistical Mechanics of Deep Learning,5,1
+doi:10.3390/bdcc9080193,,Survey on the Role of Mechanistic Interpretability in Generative AI,5,1
+doi:10.1145/3787104,,Bridging the Black Box: A Survey on Mechanistic Interpretability in AI,4,1
+2605.12394,2605.12394,Detecting overfitting in Neural Networks during long-horizon grokking using Random Matrix Theory,4,1
+doi:10.1103/physrevlett.97.188104,,Eigenvalue Spectra of Random Matrices for Neural Networks,4,1
+doi:10.18653/v1/2025.findings-acl.679,,Mechanistic Interpretability of Emotion Inference in Large Language Models,4,1
+2402.05110,2402.05110,Opening the AI black box: program synthesis via mechanistic interpretability,4,1
+2203.14661,2203.14661,Random matrix analysis of deep neural network weight matrices,4,1
+1710.09553,1710.09553,Rethinking generalization requires revisiting old ideas: statistical mechanics approaches and complex learning behavior,4,1
+doi:10.3390/e26010041,,Seeing Is Believing: Brain-Inspired Modular Training for Mechanistic Interpretability,4,1
+2601.17357,2601.17357,Spectral Geometry for Deep Learning: Compression and Hallucination Detection via Random Matrix Theory,4,1
+doi:10.1207/s15516709cog0901_7,,A Learning Algorithm for Boltzmann Machines*,3,0
+2102.06740,2102.06740,Appearance of random matrix theory in deep learning,3,0
+doi:10.1023/A:1012240212301,,"Book Review: Statistical Mechanics of Learning. By A. Engel and C. Van den Broeck, Cambridge University Press",3,0
+2301.04709,2301.04709,Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability,3,0
+doi:10.1109/cvpr52734.2025.00767,,Dissecting and Mitigating Diffusion Bias via Mechanistic Interpretability,3,0
+2310.03165,2310.03165,Enhancing Accuracy in Deep Learning Using Random Matrix Theory,3,0
+doi:10.1145/3774942,,How Do Large Language Models Understand Relevance? A Mechanistic Interpretability Perspective,3,0
+1406.2572,1406.2572,Identifying and attacking the saddle point problem in high-dimensional non-convex optimization,3,0
+2506.08764,2506.08764,On the Stability of the Jacobian Matrix in Deep Neural Networks,3,0
+2503.01922,2503.01922,Pruning Deep Neural Networks via a Combination of the Marchenko-Pastur Distribution and Regularization,3,0
+2506.13139,2506.13139,Random Matrix Theory for Deep Learning: Beyond Eigenvalues of Linear Models [Special Issue on the Mathematics of Deep Learning],3,0
+2509.18131,2509.18131,Randomness and signal propagation in physics-informed neural networks (PINNs): a neural PDE perspective,3,0
+2406.10234,2406.10234,Review and Prospect of Algebraic Research in Equivalent Framework between Statistical Mechanics and Machine Learning Theory,3,0
+noarxiv:0ec4a993511d,,Statistical Mechanics of Learning in a Large Committee Machine,3,0
+1203.6178,1203.6178,Statistical mechanics of dictionary learning,3,0
+2502.12352,2502.12352,Towards Mechanistic Interpretability of Graph Transformers via Attention Graphs,3,0
+2401.17975,2401.17975,Understanding polysemanticity in neural networks through coding theory,3,0
+noarxiv:2e9cbf1e0208,,Automatic Differentiation in Machine Learning: a Survey,2,0
+2201.04543,2201.04543,Eigenvalue Distribution of Large Random Matrices Arising in Deep Neural Networks: Orthogonal Case,2,0
+2006.09092,2006.09092,Learning Rates as a Function of Batch Size: A Random Matrix Theory Approach to Neural Network Training,2,0
+2208.08266,2208.08266,Learning nonequilibrium statistical mechanics and dynamical phase transitions,2,0
+q-bio/0510046,q-bio/0510046,Speed of synchronization in complex networks of neural oscillators: analytic results based on Random Matrix Theory.,2,0
+1706.06953,1706.06953,Statistical Mechanics of Node-perturbation Learning with Noisy Baseline,2,0
+cond-mat/0102319,cond-mat/0102319,Statistical mechanics of learning with soft margin classifiers.,2,0
+cond-mat/0209164,cond-mat/0209164,Statistical mechanics of learning: a variational approach for real data.,2,0
+2412.05439,2412.05439,Statistical mechanics of support vector regression.,2,0
+1612.01717,1612.01717,Statistical mechanics of unsupervised feature learning in a restricted Boltzmann machine with binary synapses,2,0
+noarxiv:f5246c64de6c,,Towards understanding the true loss surface of deep neural networks using random matrix theory and iterative spectral methods,2,0
+doi:10.1155/2022/3077453,,A Study of English Translation Theory Based on Multivariate Statistical Analysis of Random Matrix,1,0
+2302.08991,2302.08991,Bridging scales with Machine Learning: From first principles statistical mechanics to continuum phase field computations to study order disorder transitions in LixCoO2,1,0
+doi:10.1016/j.csbr.2025.100066,,Cracking the clinical code: A scoping review on mechanistic interpretability in medical report generation,1,0
+2104.08318,2104.08318,"LixCoO2 phase stability studied by machine learning-enabled scale bridging between electronic structure, statistical mechanics and phase field theories",1,0
+doi:10.1109/ACCESS.2026.3703892,,Physics-Embedded Deep Learning for Wildfire Risk Assessment: Integrating Statistical Mechanics Into Neural Networks for Interpretable Environmental Modeling,1,0
+noarxiv:0e7f0549208d,,Statistical Mechanics of Learning and Optimization,1,0
+doi:10.1017/CBO9781139164542.001,,Statistical Mechanics of Learning: Preface,1,0

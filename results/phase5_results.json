@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "timestamp_utc": "2026-09-15T15:09:17.188954+00:00",
+    "query": "mechanistic interpretability circuits random matrix theory neural networks loss landscapes statistical mechanics representation learning world models",
+    "k": 40,
+    "pool_size": 120,
+    "half_life": 4.0,
+    "llm_enabled": false,
+    "personal_ranking_path": "/Users/nataltiger/Documents/Plaksha Course/Python Programming/Capstone_Project/ArXiv_Paper_Suggester/rankings/personal_importance.csv",
+    "ground_truth_count": 48,
+    "default_weights": {
+      "embedding": 0.5,
+      "recency": 0.2,
+      "citation": 0.25,
+      "author": 0.05
+    }
+  },
+  "results": [
+    {
+      "method": "citation_baseline",
+      "spearman_rho": 0.20420805297433994,
+      "ndcg_at_10": 0.04068701012578425,
+      "ndcg_at_20": 0.2522658709178831,
+      "system_count": 40,
+      "ground_truth_count": 48,
+      "intersection_count": 19
+    },
+    {
+      "method": "embedding_only",
+      "spearman_rho": 0.6775639509138783,
+      "ndcg_at_10": 0.3517236924313261,
+      "ndcg_at_20": 0.3845506454775198,
+      "system_count": 40,
+      "ground_truth_count": 48,
+      "intersection_count": 17
+    },
+    {
+      "method": "full",
+      "spearman_rho": 0.29844567856005505,
+      "ndcg_at_10": 0.49929466297694275,
+      "ndcg_at_20": 0.46239966924733694,
+      "system_count": 40,
+      "ground_truth_count": 48,
+      "intersection_count": 16
+    },
+    {
+      "method": "ablate_embedding",
+      "spearman_rho": 0.5469902192998144,
+      "ndcg_at_10": 0.37075071997147047,
+      "ndcg_at_20": 0.5481988444279535,
+      "system_count": 40,
+      "ground_truth_count": 48,
+      "intersection_count": 16
+    },
+    {
+      "method": "ablate_recency",
+      "spearman_rho": 0.42939919841249574,
+      "ndcg_at_10": 0.4150329165781242,
+      "ndcg_at_20": 0.437853600064868,
+      "system_count": 40,
+      "ground_truth_count": 48,
+      "intersection_count": 18
+    },
+    {
+      "method": "ablate_citation",
+      "spearman_rho": 0.1462954696895697,
+      "ndcg_at_10": 0.4696934057067708,
+      "ndcg_at_20": 0.4829235346469199,
+      "system_count": 40,
+      "ground_truth_count": 48,
+      "intersection_count": 21
+    },
+    {
+      "method": "ablate_author",
+      "spearman_rho": 0.531164874290687,
+      "ndcg_at_10": 0.49596461829619254,
+      "ndcg_at_20": 0.4736392469332289,
+      "system_count": 40,
+      "ground_truth_count": 48,
+      "intersection_count": 16
+    }
+  ],
+  "personal_rankings": [
+    {
+      "paper_id": "1806.07572",
+      "personal_score": 5.0,
+      "personal_rank": null,
+      "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks"
+    },
+    {
+      "paper_id": "2501.16496",
+      "personal_score": 5.0,
+      "personal_rank": null,
+      "title": "Open Problems in Mechanistic Interpretability"
+    },
+    {
+      "paper_id": "doi:10.1146/annurev-conmatphys-031119-050745",
+      "personal_score": 5.0,
+      "personal_rank": null,
+      "title": "Statistical Mechanics of Deep Learning"
+    },
+    {
+      "paper_id": "doi:10.3390/bdcc9080193",
+      "personal_score": 5.0,
+      "personal_rank": null,
+      "title": "Survey on the Role of Mechanistic Interpretability in Generative AI"
+    },
+    {
+      "paper_id": "doi:10.1145/3787104",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Bridging the Black Box: A Survey on Mechanistic Interpretability in AI"
+    },
+    {
+      "paper_id": "2605.12394",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Detecting overfitting in Neural Networks during long-horizon grokking using Random Matrix Theory"
+    },
+    {
+      "paper_id": "doi:10.1103/physrevlett.97.188104",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Eigenvalue Spectra of Random Matrices for Neural Networks"
+    },
+    {
+      "paper_id": "doi:10.18653/v1/2025.findings-acl.679",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Mechanistic Interpretability of Emotion Inference in Large Language Models"
+    },
+    {
+      "paper_id": "2402.05110",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Opening the AI black box: program synthesis via mechanistic interpretability"
+    },
+    {
+      "paper_id": "2203.14661",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Random matrix analysis of deep neural network weight matrices"
+    },
+    {
+      "paper_id": "1710.09553",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Rethinking generalization requires revisiting old ideas: statistical mechanics approaches and complex learning behavior"
+    },
+    {
+      "paper_id": "doi:10.3390/e26010041",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Seeing Is Believing: Brain-Inspired Modular Training for Mechanistic Interpretability"
+    },
+    {
+      "paper_id": "2601.17357",
+      "personal_score": 4.0,
+      "personal_rank": null,
+      "title": "Spectral Geometry for Deep Learning: Compression and Hallucination Detection via Random Matrix Theory"
+    },
+    {
+      "paper_id": "doi:10.1207/s15516709cog0901_7",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "A Learning Algorithm for Boltzmann Machines*"
+    },
+    {
+      "paper_id": "2102.06740",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Appearance of random matrix theory in deep learning"
+    },
+    {
+      "paper_id": "doi:10.1023/A:1012240212301",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Book Review: Statistical Mechanics of Learning. By A. Engel and C. Van den Broeck, Cambridge University Press"
+    },
+    {
+      "paper_id": "2301.04709",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability"
+    },
+    {
+      "paper_id": "doi:10.1109/cvpr52734.2025.00767",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Dissecting and Mitigating Diffusion Bias via Mechanistic Interpretability"
+    },
+    {
+      "paper_id": "2310.03165",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Enhancing Accuracy in Deep Learning Using Random Matrix Theory"
+    },
+    {
+      "paper_id": "doi:10.1145/3774942",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "How Do Large Language Models Understand Relevance? A Mechanistic Interpretability Perspective"
+    },
+    {
+      "paper_id": "1406.2572",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"
+    },
+    {
+      "paper_id": "2506.08764",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "On the Stability of the Jacobian Matrix in Deep Neural Networks"
+    },
+    {
+      "paper_id": "2503.01922",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Pruning Deep Neural Networks via a Combination of the Marchenko-Pastur Distribution and Regularization"
+    },
+    {
+      "paper_id": "2506.13139",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Random Matrix Theory for Deep Learning: Beyond Eigenvalues of Linear Models [Special Issue on the Mathematics of Deep Learning]"
+    },
+    {
+      "paper_id": "2509.18131",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Randomness and signal propagation in physics-informed neural networks (PINNs): a neural PDE perspective"
+    },
+    {
+      "paper_id": "2406.10234",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Review and Prospect of Algebraic Research in Equivalent Framework between Statistical Mechanics and Machine Learning Theory"
+    },
+    {
+      "paper_id": "noarxiv:0ec4a993511d",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Statistical Mechanics of Learning in a Large Committee Machine"
+    },
+    {
+      "paper_id": "1203.6178",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Statistical mechanics of dictionary learning"
+    },
+    {
+      "paper_id": "2502.12352",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Towards Mechanistic Interpretability of Graph Transformers via Attention Graphs"
+    },
+    {
+      "paper_id": "2401.17975",
+      "personal_score": 3.0,
+      "personal_rank": null,
+      "title": "Understanding polysemanticity in neural networks through coding theory"
+    },
+    {
+      "paper_id": "noarxiv:2e9cbf1e0208",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Automatic Differentiation in Machine Learning: a Survey"
+    },
+    {
+      "paper_id": "2201.04543",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Eigenvalue Distribution of Large Random Matrices Arising in Deep Neural Networks: Orthogonal Case"
+    },
+    {
+      "paper_id": "2006.09092",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Learning Rates as a Function of Batch Size: A Random Matrix Theory Approach to Neural Network Training"
+    },
+    {
+      "paper_id": "2208.08266",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Learning nonequilibrium statistical mechanics and dynamical phase transitions"
+    },
+    {
+      "paper_id": "q-bio/0510046",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Speed of synchronization in complex networks of neural oscillators: analytic results based on Random Matrix Theory."
+    },
+    {
+      "paper_id": "1706.06953",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Statistical Mechanics of Node-perturbation Learning with Noisy Baseline"
+    },
+    {
+      "paper_id": "cond-mat/0102319",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Statistical mechanics of learning with soft margin classifiers."
+    },
+    {
+      "paper_id": "cond-mat/0209164",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Statistical mechanics of learning: a variational approach for real data."
+    },
+    {
+      "paper_id": "2412.05439",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Statistical mechanics of support vector regression."
+    },
+    {
+      "paper_id": "1612.01717",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Statistical mechanics of unsupervised feature learning in a restricted Boltzmann machine with binary synapses"
+    },
+    {
+      "paper_id": "noarxiv:f5246c64de6c",
+      "personal_score": 2.0,
+      "personal_rank": null,
+      "title": "Towards understanding the true loss surface of deep neural networks using random matrix theory and iterative spectral methods"
+    },
+    {
+      "paper_id": "doi:10.1155/2022/3077453",
+      "personal_score": 1.0,
+      "personal_rank": null,
+      "title": "A Study of English Translation Theory Based on Multivariate Statistical Analysis of Random Matrix"
+    },
+    {
+      "paper_id": "2302.08991",
+      "personal_score": 1.0,
+      "personal_rank": null,
+      "title": "Bridging scales with Machine Learning: From first principles statistical mechanics to continuum phase field computations to study order disorder transitions in LixCoO2"
+    },
+    {
+      "paper_id": "doi:10.1016/j.csbr.2025.100066",
+      "personal_score": 1.0,
+      "personal_rank": null,
+      "title": "Cracking the clinical code: A scoping review on mechanistic interpretability in medical report generation"
+    },
+    {
+      "paper_id": "2104.08318",
+      "personal_score": 1.0,
+      "personal_rank": null,
+      "title": "LixCoO2 phase stability studied by machine learning-enabled scale bridging between electronic structure, statistical mechanics and phase field theories"
+    },
+    {
+      "paper_id": "doi:10.1109/ACCESS.2026.3703892",
+      "personal_score": 1.0,
+      "personal_rank": null,
+      "title": "Physics-Embedded Deep Learning for Wildfire Risk Assessment: Integrating Statistical Mechanics Into Neural Networks for Interpretable Environmental Modeling"
+    },
+    {
+      "paper_id": "noarxiv:0e7f0549208d",
+      "personal_score": 1.0,
+      "personal_rank": null,
+      "title": "Statistical Mechanics of Learning and Optimization"
+    },
+    {
+      "paper_id": "doi:10.1017/CBO9781139164542.001",
+      "personal_score": 1.0,
+      "personal_rank": null,
+      "title": "Statistical Mechanics of Learning: Preface"
+    }
+  ]
+}
